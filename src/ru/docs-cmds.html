@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sirius Software</title>
+
+    <!-- Add CSS here -->
+    <style type="text/css">
+        .container {
+            position: relative;
+        }
+        
+        body {
+            background-image: url('../img/bg.gif');
+            color: #fff;
+        }
+        
+        .sidebar {
+            width: 25%;
+            float: left;
+            padding-top: 20px; 
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <table border="0" cellspacing="0" cellpadding="2">
+        <tr>
+            <td align="center">
+                <img src="../img/sirius.png" alt="Logo" width="100" height="auto"/>
+                <h1>Сириус Софтвейр</h1>
+                <a href="../index.html"><h3>Английский Перевод</h3></a>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Navigation Bar -->
+    <div class="sidebar">
+        <!-- Navigation links go here -->
+        <ul>
+            <li><a href="index.html">Заглавная Страница</a></li>
+            <li><a href="documentation.html">Документация</a></li>
+            <li><a href="siriusos.html">ОС Сириус</a></li>
+        </ul>
+    </div>
+
+    <div style="width: 75%; float: left;">
+        <h1>Документация к командам</h1>
+        <h1>Команды для получения информации</h1>
+        <h2>help : выводит вспомгательную информацию</h2>
+        <h2>ver : выводит версию ОС Сириус</h2>
+        <h2>pcinf : выводит информацию о компьютере (ЦПУ и ОЗУ)</h2>
+        <h1>Команды файловой системы</h1>
+        <h2>fvfs touch 0:\f.txt : создаёт файл</h2>
+        <h2>fvfs mkdir 0:\System32 : создаёт директорию</h2>
+        <h2>fvfs rm 0:\f.txt : удаляет файл</h2>
+        <h2>fvfs rm -r 0:\System32 : удаляет директорию</h2>
+        <h2>fvfs write 0:\f.txt : небольшой текстовый редактор</h2>
+        <h2>fvfs cat 0:\f.txt : читает файл</h2>
+        <h1>Команды для системы питания</h1>
+        <h2>reboot : перезагружает компьютер</h2>
+        <h2>poweroff : выключает компьютер</h2>
+        <p>&copy; гамма63 | 2024 | Весь сайт распространяется под лицензией GPLv2</p>
+    </div>
+
+</body>
+
+</html>
